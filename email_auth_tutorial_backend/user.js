@@ -5,7 +5,6 @@ const PassportLocalStrategy = require('passport-local');
 
 const UserDetail = new mongoose.Schema({
   username: String,
-  fullName: String,
   email: String,
   password: String,
   emailVerified: Boolean,

@@ -9,8 +9,8 @@ const sendMail = async ({
   let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'YOURUSERNAME@gmail.com',
-      pass: 'YOUR_PASSWORD' // naturally, replace both with your real credentials or an application-specific password
+      user: '<YOUR_USERNAME>@gmail.com',
+      pass: '<YOUR_PASSWORD>' // naturally, replace both with your real credentials or an application-specific password
     }
   });
   return await transporter.sendMail({
